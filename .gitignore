@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data + outputs (keep raw out of git if large)
+data/interim/
+data/processed/
+outputs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
